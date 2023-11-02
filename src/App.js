@@ -1,5 +1,7 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
+import { Login } from './components/Login/Login';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   useEffect(() => {
@@ -10,9 +12,14 @@ function App() {
     }, 2000);
   }, []);
 
+  const [phone, setPhone] = useState('');
+
   return (
     <div className="App">
-
+      <Routes>
+        <Route path="/login" element={<Login phone={phone} setPhone={setPhone} />} />
+        {/* <Route path="/*" element={<NotFound />} /> */}
+      </Routes>
     </div>
   );
 }

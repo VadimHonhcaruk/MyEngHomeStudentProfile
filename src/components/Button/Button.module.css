@@ -1,0 +1,16 @@
+.button {
+  width: 11.46vw;
+  height: 4.63vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(96, 230, 84);
+  background: linear-gradient(
+    90deg,
+    rgba(96, 230, 84, 1) 0%,
+    rgba(147, 235, 203, 1) 100%
+  );
+  color: white;
+  font-size: 2rem;
+  border-radius: 12px;
+}
