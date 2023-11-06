@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 79.815vh - 13vh - 3px);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 74.84375vw - 3px);
+}
+
+.footerLeft {
+  width: calc(74.84375vw + 3px);
+  min-height: calc(100vh - 79.815vh - 13vh - 3px);
+  border-right: 3px solid white;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.logo {
+  height: calc(100vh - 79.815vh - 14vh - 3px);
+}

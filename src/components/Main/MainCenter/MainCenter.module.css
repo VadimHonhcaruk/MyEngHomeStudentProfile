@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+}
+
+.mainleft {
+  margin: 3px 3px 0 0;
+  background-color: white;
+  width: 74.84375vw;
+  min-height: 79.815vh;
+}
+
+.mainright {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: white;
+  min-height: 79.815vh;
+  margin-top: 3px;
+  width: calc(100% - 74.84375vw - 3px);
+}
