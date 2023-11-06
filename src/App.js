@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import { Login } from './components/Login/Login';
 import { Route, Routes } from 'react-router-dom';
+import { Main } from './components/Main/Main';
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/login" element={<Login phone={phone} setPhone={setPhone} />} />
+        <Route path="/main" element={<Main />} />
         {/* <Route path="/*" element={<NotFound />} /> */}
       </Routes>
     </div>
